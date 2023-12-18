@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="icon.png">
+    <style>
+        a{
+            text-decoration: none;
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+        
+        label{
+            font-family: serif;
+        }
+        div{
+            border: 5px ridge black;
+            margin-top: 170px;
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-bottom: 20px;
+            width: 355px;
+            height: 220px;
+            background-color: orange;
+            background-image: linear-gradient(orange,red);
+            padding-bottom: 20px;
+            
+           
+        }
+        h1{
+            color: #190482;
+        }
+        #xyz:hover{
+            background-color: gray;
+            
+        }
+      
+        
+        
+    </style>
+</head>
+<body>
+    <div>
+        <center id="back">
+            <form action="http://127.0.0.1:5500/HTML%20Project/Project.html">
+               
+                
+               <h1><b>Sign in</b></h1>
+
+                
+                <label for="mail"><b>Email</b></label>
+                <input type="email" id="mail" required placeholder="example.@gmail.com"> <br><br>
+                <label for="pass"><b>Password</b></label>
+                <input type="text" id="pass" required pattern="[A-Z a-z]{5,12}" placeholder="ex:abcdef"><br><br>
+            
+                <input id="xyz" type="submit">
+                
+                
+                 
+                <h4>Don't have an account <a href="http://127.0.0.1:5500/HTML%20Project/register.html">Click here</a></h4>
+                
+            </form>
+            
+        </center>
+    </div>
+    
+</body>
+</html>
